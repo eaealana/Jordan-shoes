@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+/* HEADER */
+  
+header .text {
+  width: 100%;
+  height: 3rem;
+  padding: 10px 0;
+  
+  text-align: center;
+  background:#000000;
+}
+  
+header .text p {
+  color:#FFFFFF;
+  font: 500 1.2rem 'DM Sans', sans-serif;
+}
+  
+.logo {
+  height: 4rem;
+  padding: 7px 0;
+  
+  text-align: center;
+}
+  
+.logo-type {
+  font: 500 1.8rem 'Poppins', sans-serif;
+}
+  
+.logo-type span {
+  color:#a50d0d;
+}
+  
+/* SECTION */
+  
+.container {
+  background-image: url(assets/jordana.png);
+  background-position: center;
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+  
+.container-text {
+  color:#FFFFFF;
+  text-align: center;
+
+  padding-left: 2rem;
+}
+  
+.container h1 {
+  font: 500 2rem 'Poppins', sans-serif;
+  padding: 0.5rem 0;
+
+  text-align: left;
+}
+  
+.container p {
+  font: 500 1rem 'Dm Sans', sans-serif;
+  color:rgb(221, 215, 215);
+
+  text-align: left;
+}
+  
+/* MAIN - SWIPER */
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h1 {
+    font: 500 1.7rem 'Poppins', sans-serif;
+
+    padding: 1.5rem 0;
+}
+
+.main-text p {
+    font: 500 1.1rem 'Dm Sans', sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+
+  padding-bottom: 0.5rem;
+}
+  
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+  
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #F9F9F9F9;
+}
+
+.swiper-pagination-bullet-active {
+    background: #000000;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+
+    background: #000000;
+}
+
+footer p {
+    font: 500 1rem 'DM Sans', sans-serif;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding-top: 0.75rem;
+}
+
+@media (min-width: 900px) {
+    .container-text {
+        padding-left: 9%;
+    }
+
+    .container-text h1 {
+        font-size: 2rem;
+    }
+}
